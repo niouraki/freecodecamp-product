@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset="utf-8">
+  <title>Freecodecamp Product Landing Page</title>
+  <meta name="description" content="This is my product landing page project for freecode camp">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+</head>
+
+<body>
+  <header id="header">
+    <!-- svg from fontawesome License https://www.w3schools.com/tags/tag_comment.asp -->
+    <img id="header-img" src="images/playstation-brands.svg" alt="An image of the playstation logo">
+    <nav id="nav-bar">
+      <a href="#" class="hamburger-icon"><i class="fas fa-bars"></i></a>
+      <ul id="nav-list" class="nav-list">
+        <li><a href="#main-title" class="nav-link">For the players</a></li>
+        <li><a href="#features" class="nav-link">Features</a></li>
+        <li><a href="#prices" class="nav-link">Models</a></li>
+        <li><a href="#contact" class="nav-link">Register</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+  <h1 id="main-title">Playstation 4</h1>
+    <section>
+      <h2 class="video-title">For the players</h2>
+      <video controls
+             src="media/video.mp4"
+             id="video"
+             width="270"
+             height="200">
+      Sorry, your browser doesn't support embedded video.
+      </video>
+    </section>
+    <section class="features" id="features">
+          <div class="first-feature">
+              <i class="fas fa-gamepad"></i>
+              <div class="info">
+                  <h2>More ways to play</h2>
+                  <p>Store your games, apps, screenshots and videos with 500GB and 1TB models –slimmer and lighter than the original PS4 model and available in Jet Black, Glacier White and now stunning Gold and Silver.</p>
+              </div>
+          </div>
+          <div class="second-feature">
+              <i class="fas fa-tv"></i>
+              <div class="info">
+                  <h2>Vibrant HDR gaming</h2>
+                  <p>HDR-enabled PS4 games burst into life with incredible colour and clarity on an HDR TV, delivering a more vibrant, realistic spectrum of colours.</p>
+              </div>
+          </div>
+          <div class="third-feature">
+              <i class="fas fa-child"></i>
+              <div class="info">
+                  <h2>PS4 for the whole family</h2>
+                  <p>With versatile parental controls designed to give you peace of mind, plus a whole universe of games suitable for everyone, PS4 is the best place to play for the entire family.</p>
+              </div>
+          </div>
+    </section>
+    <section class="prices" id="prices">
+      <div class="version ps-4">
+        <h3>Playstation 4</h3>
+        <a href="#" class="price">300 €</a>
+        <h4>The world's best-selling console</h4>
+        <p>A sleeker, smaller PS4, delivering awesome gaming power that’s always for the players.</p>
+        <h4>Unparalleled control</h4>
+        <p>The DUALSHOCK 4 wireless controller has been updated with a new look and feel, including a more visible, colourful light bar to put even more of the game into your hands. It’s the most ergonomic, intuitive PlayStation controller we’ve ever designed.</p>
+        <h4>The greatest games are on PS4</h4>
+        <p>Whether you play on PS4 or PS4 Pro, the biggest blockbusters, incredible PlayStation exclusives and most immersive games are waiting for you.</p>
+      </div>
+      <div class="version ps-pro">
+        <h3>PS4 Pro</h3>
+        <a href="#" class="price">400 €</a>
+        <h4>4K gaming</h4>
+        <p>Play the latest games in amazing 4K clarity; skin tones become warmer, materials take on realistic textures and environments come alive like never before.</p>
+        <h4>Stunning graphical details</h4>
+        <p>With PS4 Pro, faces take on life-like realism, curves become smoother, corners are sharper and visual elements like hair, water and grass bristle with life.</p>
+        <h4>HDR technology</h4>
+        <p>With an HDR TV, compatible PS4 games display a range of colours closer to the full spectrum that the human eye can see, delivering unbelievable vibrancy and lifelike details.</p>
+      </div>
+      <div class="version ps-vr">
+        <h3>Playstation VR</h3>
+        <a href="#" class="price">200 €</a>
+        <h4>5.7” OLED screen</h4>
+        <p>See hyper-real 3D environments come to life with a custom OLED screen.</p>
+        <h4>360 degree vision</h4>
+        <p>Whichever way you turn the 360 degree immersion of PS VR makes you part of a living, breathing world with a seamless field of view.</p>
+        <h4>120 frames per second</h4>
+        <p>Smooth visuals and super low latency combine to create an incredibly immersive gaming world.</p>
+      </div>
+    </section>
+    <footer id="contact">
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <label for="email" id="email-label">Register to our newsletter: </label>
+        <input type="email" id="email" name="email" placeholder="Enter your email address">
+        <div>
+          <input type="submit" value="Submit" id="submit">
+        </div>
+      </form>
+    </footer>
+  </main>
+  <script src="js/app.js"></script>
+</body>
+</html>
