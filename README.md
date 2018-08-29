@@ -6,6 +6,8 @@ The svg image license: https://www.w3schools.com/tags/tag_comment.asp
 The freecodecamp example is: https://codepen.io/freeCodeCamp/full/RKRbwL
 I followed the basic functionality of the example and I added a hamburger menu for small viewports.
 
+Live page at: https://niouraki.github.io/freecodecamp-product-page/
+
 ## User stories I had to pass
 
 - User Story #1: My product landing page should have a header element with a corresponding id="header".
